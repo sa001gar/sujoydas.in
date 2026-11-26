@@ -1,4 +1,4 @@
-import projectData from "../Asset/data/projects.json";
+import projectData from "./data/projects.json";
 
 export const projects = projectData;
 export const categories = [

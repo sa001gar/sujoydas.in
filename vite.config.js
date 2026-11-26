@@ -20,6 +20,11 @@ export default defineConfig({
   build: {
     outDir: "Asset/dist",
     emptyOutDir: false,
+    rollupOptions: {
+      output: {
+        assetFileNames: "app.css",
+      },
+    },
     lib: {
       entry: "src/main.jsx",
       name: "SujoyDasPortfolio",

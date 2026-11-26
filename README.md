@@ -16,6 +16,6 @@ pnpm dev
 pnpm build
 ```
 
-The build writes the bundled React app to `Asset/dist/app.js`, the path already
-used by the static site. `Asset/dist/app.css` is kept intact. Portfolio entries,
-including render-stage images, are maintained in `Asset/data/projects.json`.
+The build writes the bundled React app to `Asset/dist/app.js`, the path used
+by the static site. Styles are maintained in `src/app.css`, and portfolio data
+is maintained in `src/data/projects.json`.
